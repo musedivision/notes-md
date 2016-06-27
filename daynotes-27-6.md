@@ -10,17 +10,15 @@
   - having trouble managing two property values to check!
   ```javascript
   var filterColl = collection.filter(function(name) {
-    // testing that all the values are equal
     for(var value of Object.keys(source)) {
-      console.log(value);
       if (name[value] != source[value]){
-        console.log(name[value],source[value] );
         return false;
       }
-    return true;
     }
+    return true;
   });
   ```
+  - __update__ just had to move where return was placed ^ the above is edited
 - __duolinguo:__ german and spanish
 - __Porfolio:__ creating a jekyll workflow for a portfolio page.
   - just need to remember how to jekyll and node. its been so long
