@@ -28,3 +28,5 @@ function translatePigLatin(str) {
 ## thoughts :cloud:
 
 Talked to monica about england on fb. Was really great. She drove home how hard it can be, new city/money/friends. gona line up ducks before locking away a decision to go there.
+
+all you need to create stats is to send off ajax http requests about certain stats about the user! 
